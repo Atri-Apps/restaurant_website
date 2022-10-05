@@ -4,16 +4,16 @@ Full Stack Website for your Restaurant
 - Frontend, backend and deployment accomplished using Atri framework
 
 ## Deployed app
-https://atri-apps.github.io/restaurent_website
+https://atri-apps.github.io/restaurant_website
 
 ## How to use this app?
 
 ### Step 1: Setup
 
 ```shell
-git clone https://github.com/Atri-Apps/restaurent_website.git
+git clone https://github.com/Atri-Apps/restaurant_website.git
 
-cd restaurent_website
+cd restaurant_website
 
 pipenv install
 ```
