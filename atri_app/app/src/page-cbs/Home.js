@@ -1004,38 +1004,6 @@ export function useFlex32Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox41Cb() {
-	const onClick = useCallback(callbackFactory("TextBox41", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useImage23Cb() {
-	const onClick = useCallback(callbackFactory("Image23", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
 export function useTextBox43Cb() {
 	const onClick = useCallback(callbackFactory("TextBox43", "Home", "/", "onClick", 
 			{
