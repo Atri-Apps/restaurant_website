@@ -91406,5 +91406,16 @@
       }
     },
     "id": "95ba89f9-4870-43da-b024-83be78faa4f7"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "display": "none"
+        }
+      }
+    },
+    "id": "aff4c2de-372b-436c-b512-996243000d06"
   }
 ]
