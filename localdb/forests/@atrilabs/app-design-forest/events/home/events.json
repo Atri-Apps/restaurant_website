@@ -89655,5 +89655,27 @@
       }
     },
     "id": "b10ff2fa-6143-48b4-8756-f492214b55d1"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "src": "/app-assets/left-arrow-svgrepo-com.svg"
+        }
+      }
+    },
+    "id": "fc0fd219-4390-41c9-bd4e-75da5088b6e4"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "slice": {
+      "property": {
+        "custom": {
+          "src": "/app-assets/right-arrow-svgrepo-com.svg"
+        }
+      }
+    },
+    "id": "0919d053-a445-48e0-9c45-368f3d1331a0"
   }
 ]

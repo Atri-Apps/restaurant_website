@@ -4591,7 +4591,7 @@ const desktopModeProps = {
       },
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/left-arrow-svgrepo-com%20(1).svg"
+        "src": "/app-assets/left-arrow-svgrepo-com.svg"
       },
       "callbacks": {
         "onClick": [
@@ -4615,7 +4615,7 @@ const desktopModeProps = {
       },
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/right-arrow-svgrepo-com%20(2).svg"
+        "src": "/app-assets/right-arrow-svgrepo-com.svg"
       },
       "callbacks": {
         "onClick": [
