@@ -17,9 +17,19 @@ align-items: center;
 .p-Home.Flex4 {
 display: flex;
 }
+.p-Home.Flex138 {
+display: flex;
+column-gap: 30px;
+}
 .p-Home.Flex3 {
 display: flex;
 column-gap: 30px;
+}
+.p-Home.Menu1 {
+display: none;
+}
+.p-Home.Flex139 {
+display: flex;
 }
 .p-Home.Flex5 {
 display: flex;
@@ -781,6 +791,9 @@ column-gap: 20px;
 display: flex;
 column-gap: 20px;
 }
+.p-Home.Image2 {
+;
+}
 .p-Home.TextBox1 {
 ;
 }
@@ -794,9 +807,6 @@ column-gap: 20px;
 ;
 }
 .p-Home.TextBox6 {
-;
-}
-.p-Home.Image2 {
 ;
 }
 .p-Home.Button1 {
@@ -836,6 +846,21 @@ border-color: #1890ff;
 cursor: pointer;
 user-select: none;
 font-family: DM Sans;
+}
+.p-Home.TextBox146 {
+;
+}
+.p-Home.TextBox147 {
+;
+}
+.p-Home.TextBox148 {
+;
+}
+.p-Home.TextBox149 {
+;
+}
+.p-Home.TextBox150 {
+;
 }
 .p-Home.TextBox9 {
 font-size: 18px;
@@ -2088,4 +2113,28 @@ border-radius: 25px;
 width: 145px;
 height: 145px;
 border-radius: 25px;
+}
+@media screen and (max-width: 991px) {	.p-Home.Flex1 {padding-left: 150px;
+padding-right: 50px;
+box-sizing: border-box;
+width: 100%;
+justify-content: space-between;
+}
+	.p-Home.Flex138 {column-gap: 30px;
+display: none;
+}
+	.p-Home.Flex3 {display: none;
+}
+	.p-Home.Menu1 {display: flex;
+}
+	.p-Home.Flex139 {column-gap: 30px;
+flex-direction: column;
+background-color: #ffffff;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 15px;
+padding-bottom: 15px;
+row-gap: 7px;
+z-index: 5;
+}
 }

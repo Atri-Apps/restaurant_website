@@ -49,7 +49,22 @@ const desktopModeProps = {
     "Flex4": {
       "callbacks": {}
     },
+    "Flex138": {
+      "callbacks": {}
+    },
     "Flex3": {
+      "callbacks": {}
+    },
+    "Menu1": {
+      "custom": {
+        "open": false,
+        "iconHeight": 24,
+        "iconWidth": 24,
+        "alignRight": true
+      },
+      "callbacks": {}
+    },
+    "Flex139": {
       "callbacks": {}
     },
     "Flex5": {
@@ -382,6 +397,19 @@ const desktopModeProps = {
     "Flex123": {
       "callbacks": {}
     },
+    "Image2": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/616da2c309aa0721dacedf0a_logo-restaurante-x-template.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
     "TextBox1": {
       "custom": {
         "text": "Home"
@@ -442,19 +470,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image2": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/616da2c309aa0721dacedf0a_logo-restaurante-x-template.svg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "Button1": {
       "custom": {
         "text": "Order online"
@@ -470,6 +485,66 @@ const desktopModeProps = {
     "Button2": {
       "custom": {
         "text": "Reservate"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox146": {
+      "custom": {
+        "text": "Cart"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox147": {
+      "custom": {
+        "text": "Pages"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox148": {
+      "custom": {
+        "text": "Menu"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox149": {
+      "custom": {
+        "text": "About"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox150": {
+      "custom": {
+        "text": "Home"
       },
       "callbacks": {
         "onClick": [
