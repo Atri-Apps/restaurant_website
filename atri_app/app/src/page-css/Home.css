@@ -40,11 +40,13 @@ flex-direction: column;
 font-family: DM Sans;
 font-weight: 500;
 font-size: 40px;
-width: 60%;
+width: ;
 row-gap: 20px;
 padding-left: 150px;
-padding-right: 60px;
+padding-right: ;
 padding-top: 100px;
+flex-grow: 1;
+align-items: flex-start;
 }
 .p-Home.Flex8 {
 display: flex;
@@ -61,7 +63,7 @@ font-size: 50px;
 .p-Home.Flex7 {
 display: flex;
 background-color: #FF7629;
-width: 40%;
+width: ;
 }
 .p-Home.Flex11 {
 display: flex;
@@ -146,6 +148,7 @@ background-color: #FFF9F3;
 padding-top: 150px;
 padding-left: ;
 padding-right: ;
+box-sizing: content-box;
 }
 .p-Home.Flex27 {
 display: flex;
@@ -153,6 +156,7 @@ align-items: center;
 padding-bottom: 200px;
 padding-left: 150px;
 width: 50%;
+box-sizing: content-box;
 }
 .p-Home.Flex29 {
 display: flex;
@@ -169,6 +173,7 @@ font-family: DM Sans;
 font-weight: 500;
 top: 200px;
 right: 300px;
+box-sizing: border-box;
 }
 .p-Home.Flex30 {
 display: flex;
@@ -382,7 +387,7 @@ align-items: stretch;
 .p-Home.Flex60 {
 display: flex;
 flex-direction: column;
-width: 50%;
+width: ;
 background-color: #FF7629;
 align-items: flex-start;
 justify-content: center;
@@ -399,7 +404,7 @@ column-gap: 30px;
 }
 .p-Home.Flex61 {
 display: flex;
-width: 50%;
+width: ;
 }
 .p-Home.Flex63 {
 display: flex;
@@ -917,8 +922,8 @@ font-family: DM Sans;
 font-weight: 700;
 }
 .p-Home.Image5 {
-height: 400px;
-width: 200%;
+height: ;
+width: 400px;
 border-radius: 50px;
 padding-left: 40px;
 padding-right: 40px;
@@ -2114,13 +2119,71 @@ width: 145px;
 height: 145px;
 border-radius: 25px;
 }
-@media screen and (max-width: 991px) {	.p-Home.Flex1 {padding-left: 150px;
-padding-right: 50px;
-box-sizing: border-box;
-width: 100%;
-justify-content: space-between;
+@media screen and (max-width: 478px) {	.p-Home.Flex1 {padding-left: 50px;
 }
-	.p-Home.Flex138 {column-gap: 30px;
+	.p-Home.Flex6 {padding-left: 50px;
+}
+	.p-Home.Flex12 {flex-direction: column;
+row-gap: 15px;
+}
+	.p-Home.Flex27 {padding-left: ;
+width: ;
+justify-content: space-between;
+align-items: center;
+align-content: stretch;
+flex-direction: column;
+padding-bottom: ;
+}
+	.p-Home.Flex29 {position: relative;
+bottom: 150px;
+}
+	.p-Home.Flex60 {padding-left: 50px;
+}
+	.p-Home.Flex75 {width: ;
+}
+	.p-Home.Flex77 {flex-direction: column;
+row-gap: 40px;
+}
+	.p-Home.Flex81 {width: ;
+}
+	.p-Home.Flex82 {width: ;
+}
+	.p-Home.Flex85 {flex-direction: column;
+row-gap: 40px;
+}
+	.p-Home.Flex83 {width: ;
+}
+	.p-Home.Flex84 {width: ;
+}
+	.p-Home.Flex91 {padding-left: ;
+}
+	.p-Home.Flex93 {column-gap: 21px;
+width: ;
+}
+	.p-Home.Flex94 {width: ;
+}
+	.p-Home.Flex95 {width: ;
+}
+	.p-Home.Flex117 {padding-left: ;
+padding-right: ;
+}
+	.p-Home.Image19 {width: 90%;
+}
+	.p-Home.TextBox106 {width: ;
+}
+}
+@media screen and (max-width: 767px) {	.p-Home.Flex26 {padding-bottom: 250px;
+}
+	.p-Home.Flex27 {padding-left: ;
+width: ;
+justify-content: center;
+flex-direction: column;
+padding-bottom: ;
+}
+	.p-Home.Flex29 {bottom: 150px;
+}
+}
+@media screen and (max-width: 991px) {	.p-Home.Flex138 {column-gap: 30px;
 display: none;
 }
 	.p-Home.Flex3 {display: none;
@@ -2136,5 +2199,47 @@ padding-top: 15px;
 padding-bottom: 15px;
 row-gap: 7px;
 z-index: 5;
+}
+	.p-Home.Flex5 {flex-direction: column;
+}
+	.p-Home.Flex7 {display: none;
+}
+	.p-Home.Flex14 {flex-direction: column;
+row-gap: 20px;
+}
+	.p-Home.Flex40 {flex-direction: column;
+}
+	.p-Home.Flex57 {flex-direction: column;
+}
+	.p-Home.Flex59 {flex-direction: column;
+}
+	.p-Home.Flex61 {display: none;
+}
+	.p-Home.Flex74 {flex-direction: column;
+row-gap: 40px;
+align-items: center;
+}
+	.p-Home.Flex90 {flex-direction: column;
+align-items: center;
+}
+	.p-Home.Flex113 {flex-direction: column;
+row-gap: 40px;
+}
+	.p-Home.Flex1 {padding-left: 150px;
+padding-right: 50px;
+box-sizing: border-box;
+width: 100%;
+justify-content: space-between;
+}
+	.p-Home.Flex26 {flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding-bottom: 150px;
+}
+	.p-Home.Flex117 {flex-direction: column;
+row-gap: 40px;
+align-items: center;
+}
+	.p-Home.Flex27 {width: 55%;
 }
 }
