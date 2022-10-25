@@ -28277,5 +28277,59 @@
       },
       "alias": "Flex197"
     }
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "navigate": {
+                "type": "internal",
+                "url": "/"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "id": "8e552dda-dbe6-4d62-8c58-eb52fefabaa1"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "navigate": {
+                "type": "internal",
+                "url": "/about"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "id": "1a26e8ac-f2e9-4cf4-a5e8-be0065d3ee71"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "navigate": {
+                "type": "internal",
+                "url": "/menu"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "id": "564d52fe-9d56-46b2-a474-7bf2c74be976"
   }
 ]

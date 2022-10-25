@@ -134,11 +134,11 @@
         },
         "atri": {
             "hashes": [
-                "sha256:06d8b3a07af6f20455c25a10e55e228bb07956302363f1a6b425297e22bda1ed",
-                "sha256:c6eb5204fa8dc90fd8cc27d888f7512e4c151dbdcfbb49177e4d804afc8d22f0"
+                "sha256:a4c5982a24e4ba7dbda7f07fa726b2a789a0ec5788779878e6f46e9418ac7b17",
+                "sha256:b7ba4cde9c4bc0ca4db96ccbb9f9551fc2e599efb09af3a0dcd61155cd6b3aa3"
             ],
             "index": "pypi",
-            "version": "==0.0.75"
+            "version": "==0.0.76"
         },
         "atri-utils": {
             "hashes": [

@@ -6,5 +6,9 @@
   "27b98eb0-0864-4a87-98df-463422825c3b": {
     "name": "about",
     "route": "/about"
+  },
+  "0f53d00c-6bb5-4bb0-a81d-9ea3caf9d370": {
+    "name": "menu",
+    "route": "/menu"
   }
 }
