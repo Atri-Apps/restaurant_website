@@ -1,9 +1,9 @@
 {
-  "Flex": 259,
-  "Button": 36,
-  "TextBox": 275,
-  "Image": 152,
+  "Flex": 296,
+  "Button": 40,
+  "TextBox": 319,
+  "Image": 173,
   "Carousel": 3,
   "Input": 9,
-  "Menu": 3
+  "Menu": 4
 }

@@ -11,9 +11,14 @@
     },
     "/menu": {
       "name": "menu"
+    },
+    "/product": {
+      "name": "product"
     }
   },
   "publicUrlAssetMap": {
     "/app-assets": "../assets"
-  }
+  },
+  "organizationName": "Atri-Apps",
+  "projectName": "restaurant_website"
 }

@@ -497,6 +497,7 @@ align-items: center;
 justify-content: space-between;
 padding-top: ;
 padding-bottom: 30px;
+box-sizing: content-box;
 }
 .p-Home.Flex73 {
 display: flex;
