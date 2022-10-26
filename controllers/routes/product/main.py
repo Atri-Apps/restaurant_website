@@ -5,10 +5,10 @@ import json
 
 
 def set_prod_data(at:Atri, data):
-    at.Product_Image.custom.src = '/app-assets/' + data['image']
-    at.Product_Name.custom.text = data['name']
-    at.Product_Price.custom.text = "$ " + data['price'] + " USD"
-    at.Product_Price.custom.text = data['description']
+    at.Product_Image.custom.src = '/app-assets/' + data['Image']
+    at.Product_Name.custom.text = data['Name']
+    at.Product_Price.custom.text = "$ " + data['Price'] + " USD"
+    at.Product_About.custom.text = data['About']
 
 
 def init_state(at: Atri):
@@ -26,9 +26,8 @@ def handle_page_request(at: Atri, req: Request, res: Response, query: str):
     f = open("products.json")
     data = json.load(f)
     prod_name = " ".join(query.split('_')).split('=')[1]
-    print(prod_name)
     for i in data:
-        if i['name'].lower() == prod_name:
+        if i['Name'].lower() == prod_name:
             set_prod_data(at, i)
     pass
     pass

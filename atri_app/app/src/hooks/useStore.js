@@ -148,13 +148,13 @@ const desktopModeProps = {
     "Flex297": {
       "callbacks": {}
     },
-    "Flex41": {
+    "Product_Card_1": {
       "callbacks": {}
     },
     "Flex42": {
       "callbacks": {}
     },
-    "Flex44": {
+    "Product_Card_2": {
       "callbacks": {}
     },
     "Flex43": {
@@ -163,13 +163,13 @@ const desktopModeProps = {
     "Flex298": {
       "callbacks": {}
     },
-    "Flex46": {
+    "Product_Card_3": {
       "callbacks": {}
     },
     "Flex45": {
       "callbacks": {}
     },
-    "Flex48": {
+    "Product_Card_4": {
       "callbacks": {}
     },
     "Flex47": {
@@ -181,13 +181,13 @@ const desktopModeProps = {
     "Flex299": {
       "callbacks": {}
     },
-    "Flex55": {
+    "Product_Card_6": {
       "callbacks": {}
     },
     "Flex51": {
       "callbacks": {}
     },
-    "Flex56": {
+    "Product_Card_5": {
       "callbacks": {}
     },
     "Flex52": {
@@ -196,13 +196,13 @@ const desktopModeProps = {
     "Flex300": {
       "callbacks": {}
     },
-    "Flex53": {
+    "Product_Card_8": {
       "callbacks": {}
     },
     "Flex49": {
       "callbacks": {}
     },
-    "Flex54": {
+    "Product_Card_7": {
       "callbacks": {}
     },
     "Flex50": {

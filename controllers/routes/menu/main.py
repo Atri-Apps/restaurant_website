@@ -23,6 +23,8 @@ def set_products_data(at: Atri, data):
         instance.custom.src = 'app-assets/' + data[i - 1]['Image']
 
 
+
+
 def init_state(at: Atri):
     """
     This function is called everytime "Publish" button is hit in the editor.

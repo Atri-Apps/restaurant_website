@@ -4,6 +4,7 @@ from atri_utils import *
 import json
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
+import urllib.parse
 
 
 def set_data(at: Atri, data):
@@ -33,6 +34,23 @@ def set_data(at: Atri, data):
     instance: at.Image74.__class__ = getattr(at, 'Image40')
     instance.custom.src = "/app-assets/" + data['image']
 
+def check_action(at: Atri, res):
+    for i in range(1,9):
+        instance1: at.Product_Image_1.__class__ = getattr(at, f'Product_Image_{i}')
+        instance2: at.Product_Name_1.__class__ = getattr(at, f'Product_Name_{i}')
+        instance3: at.Product_About_1.__class__ = getattr(at, f'Product_About_{i}')
+        instance4: at.Product_Card_1.__class__ = getattr(at, f'Product_Card_{i}')
+
+        if instance1.onClick or instance2.onClick or instance3.onClick or instance4.onClick:
+            visit_product_page(at,i,res)
+
+
+def visit_product_page(at: Atri, num: int, res):
+    print('jatt')
+    instance: at.Product_Name_1.__class__ = getattr(at, f'Product_Name_{num}')
+    url = "/product" + "?" + urllib.parse.urlencode({'prodname': "_".join(instance.custom.text.lower().split())})
+    res.headers.append("location", url)
+
 
 def set_products_data(at: Atri, data):
     for i in range(1,9):
@@ -52,7 +70,7 @@ def set_products_data(at: Atri, data):
         instance: at.Product_Image_1.__class__ = getattr(at, f'Product_Image_{i}')
         instance.custom.src = 'app-assets/' + data[i - 1]['Image']
 
-    pass
+
 def init_state(at: Atri):
     """
     This function is called everytime "Publish" button is hit in the editor.
@@ -75,7 +93,6 @@ def handle_page_request(at: Atri, req: Request, res: Response, query: str):
     at.Flex130.styles.display = 'none'
     at.Flex137.styles.display = 'none'
     set_data(at, data[0])
-
 
     pass
 
@@ -129,3 +146,24 @@ def handle_event(at: Atri, req: Request, res: Response):
             at.Flex137.styles.display = 'flex'
         except Exception as e:
             print(e)
+
+    check_action(at, res)
+    # if at.Product_Card_1.onClick or at.Product_Name_1.onClick or at.Product_About_1.onClick or at.Product_Image_1.onClick:
+    #     print('jatu')
+    #     visit_product_page(at, 1, res)
+    # if at.Product_Card_2.onClick or at.Product_Name_2.onClick or at.Product_About_2.onClick or at.Product_Image_2.onClick:
+    #     visit_product_page(at, 2, res)
+    # if at.Product_Card_3.onClick or at.Product_Name_3.onClick or at.Product_About_3.onClick or at.Product_Image_3.onClick:
+    #     visit_product_page(at, 3, res)
+    # if at.Product_Card_4.onClick or at.Product_Name_4.onClick or at.Product_About_4.onClick or at.Product_Image_4.onClick:
+    #     visit_product_page(at, 4, res)
+    # if at.Product_Card_5.onClick or at.Product_Name_5.onClick or at.Product_About_5.onClick or at.Product_Image_5.onClick:
+    #     visit_product_page(at, 5, res)
+    # if at.Product_Card_6.onClick or at.Product_Name_6.onClick or at.Product_About_6.onClick or at.Product_Image_6.onClick:
+    #     visit_product_page(at, 6, res)
+    # if at.Product_Card_7.onClick or at.Product_Name_7.onClick or at.Product_About_7.onClick or at.Product_Image_7.onClick:
+    #     visit_product_page(at, 7, res)
+    # if at.Product_Card_8.onClick or at.Product_Name_8.onClick or at.Product_About_8.onClick or at.Product_Image_8.onClick:
+    #     visit_product_page(at, 8, res)
+
+
