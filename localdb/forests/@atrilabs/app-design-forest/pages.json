@@ -14,5 +14,9 @@
   "65b32286-1c4c-434e-9cc8-4ab55e5ff8a3": {
     "name": "product",
     "route": "/product"
+  },
+  "57f3fac8-26c5-4d0e-abea-25247cf2f6ef": {
+    "name": "extra",
+    "route": "/extra"
   }
 }

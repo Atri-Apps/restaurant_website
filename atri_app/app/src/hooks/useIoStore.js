@@ -5,7 +5,8 @@ const useIoStore = create((set) => {
   "Home": {},
   "about": {},
   "menu": {},
-  "product": {}
+  "product": {},
+  "extra": {}
 }});
 
 export default useIoStore;

@@ -6457,6 +6457,292 @@ const desktopModeProps = {
         ]
       }
     }
+  },
+  "extra": {
+    "Flex349": {
+      "callbacks": {}
+    },
+    "Flex350": {
+      "callbacks": {}
+    },
+    "Flex351": {
+      "callbacks": {}
+    },
+    "Flex352": {
+      "callbacks": {}
+    },
+    "Flex353": {
+      "callbacks": {}
+    },
+    "Flex358": {
+      "callbacks": {}
+    },
+    "Flex360": {
+      "callbacks": {}
+    },
+    "Flex359": {
+      "callbacks": {}
+    },
+    "Flex362": {
+      "callbacks": {}
+    },
+    "Flex361": {
+      "callbacks": {}
+    },
+    "Flex364": {
+      "callbacks": {}
+    },
+    "Flex363": {
+      "callbacks": {}
+    },
+    "TextBox368": {
+      "custom": {
+        "text": "Cart"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox369": {
+      "custom": {
+        "text": "Close"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Cart_Image_1": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/616dc9ba43f4163d5f7b436e_chocolate-milkshake-restaurante-x-template-p-500.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Cart_Quant_1": {
+      "custom": {
+        "value": "",
+        "placeholder": "Placeholder Text"
+      },
+      "callbacks": {}
+    },
+    "Cart_Name_1": {
+      "custom": {
+        "text": "Choclate Milkshake"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox371": {
+      "custom": {
+        "text": "Remove"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Cart_Price_1": {
+      "custom": {
+        "text": "$ 6.99 USD"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Cart_Quant_2": {
+      "custom": {
+        "value": "",
+        "placeholder": "Placeholder Text"
+      },
+      "callbacks": {}
+    },
+    "Cart_Image_2": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/616dc9ba43f4163d5f7b436e_chocolate-milkshake-restaurante-x-template-p-500.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Cart_Price_2": {
+      "custom": {
+        "text": "$ 6.99 USD"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox374": {
+      "custom": {
+        "text": "Remove"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Cart_Name_2": {
+      "custom": {
+        "text": "Choclate Milkshake"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Cart_Quant_3": {
+      "custom": {
+        "value": "",
+        "placeholder": "Placeholder Text"
+      },
+      "callbacks": {}
+    },
+    "Cart_Image_3": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/616dc9ba43f4163d5f7b436e_chocolate-milkshake-restaurante-x-template-p-500.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Cart_Price_3": {
+      "custom": {
+        "text": "$ 6.99 USD"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox377": {
+      "custom": {
+        "text": "Remove"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Cart_Name_3": {
+      "custom": {
+        "text": "Choclate Milkshake"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Cart_Quant_4": {
+      "custom": {
+        "value": "",
+        "placeholder": "Placeholder Text"
+      },
+      "callbacks": {}
+    },
+    "Cart_Image_4": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/616dc9ba43f4163d5f7b436e_chocolate-milkshake-restaurante-x-template-p-500.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Cart_Price_4": {
+      "custom": {
+        "text": "$ 6.99 USD"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox380": {
+      "custom": {
+        "text": "Remove"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Cart_Name_4": {
+      "custom": {
+        "text": "Choclate Milkshake"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    }
   }
 }};
 
