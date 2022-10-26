@@ -1,0 +1,50 @@
+[
+  {
+    "Name": "Classic Burger",
+    "Price": "10.99",
+    "Image": "616dca333c0bd679a77bec56_classic-burger-restaurante-x-template-p-500.jpeg",
+    "About": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
+  },
+  {
+    "Name": "Choclate Milkshake",
+    "Price": "6.99",
+    "Image": "616dc9ba43f4163d5f7b436e_chocolate-milkshake-restaurante-x-template-p-500.jpeg",
+    "About": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
+  },
+  {
+    "Name": "Classic Fries",
+    "Price": "5.99",
+    "Image": "616dc9aac480169bcc819e69_classic-fries-restaurante-x-template-p-500.jpeg",
+    "About": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
+  },
+  {
+    "Name": "Pancakes",
+    "Price": "8.99",
+    "Image": "616dc56043f416c4db7b3322_pancakes-restaurante-x-template-p-500.jpeg",
+    "About": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
+  },
+  {
+    "Name": "Ice Cream",
+    "Price": "3.99",
+    "Image": "616dc50743f41639377b2fd8_ice-cream-restaurante-x-template-p-500.jpeg",
+    "About": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
+  },
+  {
+    "Name": "Chicken Burger",
+    "Price": "9.99",
+    "Image": "616dc4d28ae55806547e5dba_chicken-burger-restaurante-x-template-p-500.jpeg",
+    "About": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
+  },
+  {
+    "Name": "Egg toast",
+    "Price": "6.99",
+    "Image": "616dc4908009251d2f5ac06b_egg-toast-restaurante-x-template-p-500.jpeg",
+    "About": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
+  },
+  {
+    "Name": "Regular Soda",
+    "Price": "1.99",
+    "Image": "616dc414d54d4e45ccac841f_regular-soda-restaurante-x-template-p-500.jpeg",
+    "About": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
+  }
+]

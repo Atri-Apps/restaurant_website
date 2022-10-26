@@ -174,7 +174,10 @@ export function useImage153Cb() {
 			{
   "handlers": [
     {
-      "sendEventData": true
+      "navigate": {
+        "type": "internal",
+        "url": "/"
+      }
     }
   ],
   "actions": [

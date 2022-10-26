@@ -145,6 +145,9 @@ const desktopModeProps = {
     "Flex40": {
       "callbacks": {}
     },
+    "Flex297": {
+      "callbacks": {}
+    },
     "Flex41": {
       "callbacks": {}
     },
@@ -155,6 +158,9 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "Flex43": {
+      "callbacks": {}
+    },
+    "Flex298": {
       "callbacks": {}
     },
     "Flex46": {
@@ -172,16 +178,7 @@ const desktopModeProps = {
     "Flex57": {
       "callbacks": {}
     },
-    "Flex53": {
-      "callbacks": {}
-    },
-    "Flex49": {
-      "callbacks": {}
-    },
-    "Flex54": {
-      "callbacks": {}
-    },
-    "Flex50": {
+    "Flex299": {
       "callbacks": {}
     },
     "Flex55": {
@@ -194,6 +191,21 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "Flex52": {
+      "callbacks": {}
+    },
+    "Flex300": {
+      "callbacks": {}
+    },
+    "Flex53": {
+      "callbacks": {}
+    },
+    "Flex49": {
+      "callbacks": {}
+    },
+    "Flex54": {
+      "callbacks": {}
+    },
+    "Flex50": {
       "callbacks": {}
     },
     "Flex58": {
@@ -405,7 +417,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
           }
         ]
       }
@@ -1116,10 +1131,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image26": {
+    "Product_Image_1": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/616dca333c0bd679a77bec56_classic-burger-restaurante-x-template-p-500.jpeg"
+        "src": "app-assets/616dca333c0bd679a77bec56_classic-burger-restaurante-x-template-p-500.jpeg"
       },
       "callbacks": {
         "onClick": [
@@ -1129,7 +1144,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox49": {
+    "Product_Name_1": {
       "custom": {
         "text": "Classic Burger"
       },
@@ -1141,7 +1156,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox50": {
+    "Product_About_1": {
       "custom": {
         "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
       },
@@ -1153,7 +1168,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox51": {
+    "Product_Price_1": {
       "custom": {
         "text": "$ 10.99 USD"
       },
@@ -1165,7 +1180,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox53": {
+    "Product_About_2": {
       "custom": {
         "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
       },
@@ -1177,7 +1192,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox54": {
+    "Product_Name_2": {
       "custom": {
         "text": "Choclate Milkshake"
       },
@@ -1189,10 +1204,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image27": {
+    "Product_Image_2": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/616dc9ba43f4163d5f7b436e_chocolate-milkshake-restaurante-x-template-p-500.jpeg"
+        "src": "app-assets/616dc9ba43f4163d5f7b436e_chocolate-milkshake-restaurante-x-template-p-500.jpeg"
       },
       "callbacks": {
         "onClick": [
@@ -1202,7 +1217,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox52": {
+    "Product_Price_2": {
       "custom": {
         "text": "$ 6.99 USD"
       },
@@ -1214,7 +1229,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox56": {
+    "Product_About_3": {
       "custom": {
         "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
       },
@@ -1226,7 +1241,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox57": {
+    "Product_Name_3": {
       "custom": {
         "text": "Classic Fries"
       },
@@ -1238,10 +1253,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image28": {
+    "Product_Image_3": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/616dc9aac480169bcc819e69_classic-fries-restaurante-x-template-p-500.jpeg"
+        "src": "app-assets/616dc9aac480169bcc819e69_classic-fries-restaurante-x-template-p-500.jpeg"
       },
       "callbacks": {
         "onClick": [
@@ -1251,7 +1266,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox55": {
+    "Product_Price_3": {
       "custom": {
         "text": "$ 5.99 USD"
       },
@@ -1263,7 +1278,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox59": {
+    "Product_About_4": {
       "custom": {
         "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
       },
@@ -1275,7 +1290,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox60": {
+    "Product_Name_4": {
       "custom": {
         "text": "Pancakes"
       },
@@ -1287,10 +1302,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image29": {
+    "Product_Image_4": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/616dc56043f416c4db7b3322_pancakes-restaurante-x-template-p-500.jpeg"
+        "src": "app-assets/616dc56043f416c4db7b3322_pancakes-restaurante-x-template-p-500.jpeg"
       },
       "callbacks": {
         "onClick": [
@@ -1300,7 +1315,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox58": {
+    "Product_Price_4": {
       "custom": {
         "text": "$ 8.99 USD"
       },
@@ -1312,10 +1327,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image30": {
+    "Product_Image_6": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/616dc414d54d4e45ccac841f_regular-soda-restaurante-x-template-p-500.jpeg"
+        "src": "app-assets/616dc4d28ae55806547e5dba_chicken-burger-restaurante-x-template-p-500.jpeg"
       },
       "callbacks": {
         "onClick": [
@@ -1325,105 +1340,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox65": {
-      "custom": {
-        "text": "Regular Soda"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox66": {
-      "custom": {
-        "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox61": {
-      "custom": {
-        "text": "$ 1.99 USD"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image31": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/616dc4908009251d2f5ac06b_egg-toast-restaurante-x-template-p-500.jpeg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox67": {
-      "custom": {
-        "text": "Egg toast"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox68": {
-      "custom": {
-        "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox62": {
-      "custom": {
-        "text": "$ 6.99 USD"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image32": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/616dc4d28ae55806547e5dba_chicken-burger-restaurante-x-template-p-500.jpeg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox69": {
+    "Product_Name_6": {
       "custom": {
         "text": "Chicken Burger"
       },
@@ -1435,7 +1352,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox70": {
+    "Product_About_6": {
       "custom": {
         "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
       },
@@ -1447,7 +1364,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox63": {
+    "Product_Price_6": {
       "custom": {
         "text": "$ 9.99 USD"
       },
@@ -1459,7 +1376,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox71": {
+    "Product_About_5": {
       "custom": {
         "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
       },
@@ -1471,7 +1388,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox72": {
+    "Product_Name_5": {
       "custom": {
         "text": "Ice Cream"
       },
@@ -1483,10 +1400,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image33": {
+    "Product_Image_5": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/616dc50743f41639377b2fd8_ice-cream-restaurante-x-template-p-500.jpeg"
+        "src": "app-assets/616dc50743f41639377b2fd8_ice-cream-restaurante-x-template-p-500.jpeg"
       },
       "callbacks": {
         "onClick": [
@@ -1496,9 +1413,107 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox64": {
+    "Product_Price_5": {
       "custom": {
         "text": "$ 3.99 USD"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Product_Image_8": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "app-assets/616dc414d54d4e45ccac841f_regular-soda-restaurante-x-template-p-500.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Product_Name_8": {
+      "custom": {
+        "text": "Regular Soda"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Product_About_8": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Product_Price_8": {
+      "custom": {
+        "text": "$ 1.99 USD"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Product_Image_7": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "app-assets/616dc4908009251d2f5ac06b_egg-toast-restaurante-x-template-p-500.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Product_Name_7": {
+      "custom": {
+        "text": "Egg toast"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Product_About_7": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Product_Price_7": {
+      "custom": {
+        "text": "$ 6.99 USD"
       },
       "callbacks": {
         "onClick": [
@@ -3103,7 +3118,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
           }
         ]
       }
@@ -4235,64 +4253,73 @@ const desktopModeProps = {
     "Flex205": {
       "callbacks": {}
     },
-    "Flex226": {
+    "Flex348": {
       "callbacks": {}
     },
-    "Flex223": {
+    "Flex346": {
       "callbacks": {}
     },
-    "Flex224": {
+    "Flex341": {
       "callbacks": {}
     },
-    "Flex215": {
+    "Flex333": {
       "callbacks": {}
     },
-    "Flex207": {
+    "Flex325": {
       "callbacks": {}
     },
-    "Flex216": {
+    "Flex334": {
       "callbacks": {}
     },
-    "Flex208": {
+    "Flex326": {
       "callbacks": {}
     },
-    "Flex217": {
+    "Flex342": {
       "callbacks": {}
     },
-    "Flex209": {
+    "Flex335": {
       "callbacks": {}
     },
-    "Flex218": {
+    "Flex327": {
       "callbacks": {}
     },
-    "Flex210": {
+    "Flex336": {
       "callbacks": {}
     },
-    "Flex225": {
+    "Flex328": {
       "callbacks": {}
     },
-    "Flex219": {
+    "Flex347": {
       "callbacks": {}
     },
-    "Flex211": {
+    "Flex343": {
       "callbacks": {}
     },
-    "Flex220": {
+    "Flex337": {
       "callbacks": {}
     },
-    "Flex212": {
+    "Flex329": {
       "callbacks": {}
     },
-    "Flex221": {
+    "Flex338": {
       "callbacks": {}
     },
-    "Flex213": {
+    "Flex330": {
       "callbacks": {}
     },
-    "Flex222": {
+    "Flex344": {
       "callbacks": {}
     },
-    "Flex214": {
+    "Flex339": {
+      "callbacks": {}
+    },
+    "Flex331": {
+      "callbacks": {}
+    },
+    "Flex340": {
+      "callbacks": {}
+    },
+    "Flex332": {
       "callbacks": {}
     },
     "Flex227": {
@@ -4522,7 +4549,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
           }
         ]
       }
@@ -4611,56 +4641,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Button35": {
-      "custom": {
-        "text": "Order online"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Button36": {
-      "custom": {
-        "text": "Book a table"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image118": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/616dc50743f41639377b2fd8_ice-cream-restaurante-x-template-p-500.jpeg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox240": {
-      "custom": {
-        "text": "Ice Cream"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox241": {
+    "Product_About_7": {
       "custom": {
         "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
       },
@@ -4672,80 +4653,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox232": {
-      "custom": {
-        "text": "$ 3.99 USD"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox242": {
-      "custom": {
-        "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox243": {
-      "custom": {
-        "text": "Chicken Burger"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image119": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/616dc4d28ae55806547e5dba_chicken-burger-restaurante-x-template-p-500.jpeg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox233": {
-      "custom": {
-        "text": "$ 9.99 USD"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox244": {
-      "custom": {
-        "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox245": {
+    "Product_Name_7": {
       "custom": {
         "text": "Egg toast"
       },
@@ -4757,10 +4665,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image120": {
+    "Product_Image_7": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/616dc4908009251d2f5ac06b_egg-toast-restaurante-x-template-p-500.jpeg"
+        "src": "app-assets/616dc4908009251d2f5ac06b_egg-toast-restaurante-x-template-p-500.jpeg"
       },
       "callbacks": {
         "onClick": [
@@ -4770,7 +4678,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox234": {
+    "Product_Price_7": {
       "custom": {
         "text": "$ 6.99 USD"
       },
@@ -4782,7 +4690,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox246": {
+    "Product_About_8": {
       "custom": {
         "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
       },
@@ -4794,7 +4702,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox247": {
+    "Product_Name_8": {
       "custom": {
         "text": "Regular Soda"
       },
@@ -4806,10 +4714,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image121": {
+    "Product_Image_8": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/616dc414d54d4e45ccac841f_regular-soda-restaurante-x-template-p-500.jpeg"
+        "src": "app-assets/616dc414d54d4e45ccac841f_regular-soda-restaurante-x-template-p-500.jpeg"
       },
       "callbacks": {
         "onClick": [
@@ -4819,7 +4727,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox235": {
+    "Product_Price_8": {
       "custom": {
         "text": "$ 1.99 USD"
       },
@@ -4831,10 +4739,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image122": {
+    "Product_Image_5": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/616dc56043f416c4db7b3322_pancakes-restaurante-x-template-p-500.jpeg"
+        "src": "app-assets/616dc50743f41639377b2fd8_ice-cream-restaurante-x-template-p-500.jpeg"
       },
       "callbacks": {
         "onClick": [
@@ -4844,7 +4752,105 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox248": {
+    "Product_Name_5": {
+      "custom": {
+        "text": "Ice Cream"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Product_About_5": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Product_Price_5": {
+      "custom": {
+        "text": "$ 3.99 USD"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Product_About_6": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Product_Name_6": {
+      "custom": {
+        "text": "Chicken Burger"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Product_Image_6": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "app-assets/616dc4d28ae55806547e5dba_chicken-burger-restaurante-x-template-p-500.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Product_Price_6": {
+      "custom": {
+        "text": "$ 9.99 USD"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Product_Image_4": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "app-assets/616dc56043f416c4db7b3322_pancakes-restaurante-x-template-p-500.jpeg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Product_Name_4": {
       "custom": {
         "text": "Pancakes"
       },
@@ -4856,7 +4862,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox249": {
+    "Product_About_4": {
       "custom": {
         "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
       },
@@ -4868,7 +4874,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox236": {
+    "Product_Price_4": {
       "custom": {
         "text": "$ 8.99 USD"
       },
@@ -4880,10 +4886,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image123": {
+    "Product_Image_3": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/616dc9aac480169bcc819e69_classic-fries-restaurante-x-template-p-500.jpeg"
+        "src": "app-assets/616dc9aac480169bcc819e69_classic-fries-restaurante-x-template-p-500.jpeg"
       },
       "callbacks": {
         "onClick": [
@@ -4893,7 +4899,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox250": {
+    "Product_Name_3": {
       "custom": {
         "text": "Classic Fries"
       },
@@ -4905,7 +4911,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox251": {
+    "Product_About_3": {
       "custom": {
         "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
       },
@@ -4917,7 +4923,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox237": {
+    "Product_Price_3": {
       "custom": {
         "text": "$ 5.99 USD"
       },
@@ -4929,10 +4935,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image124": {
+    "Product_Image_2": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/616dc9ba43f4163d5f7b436e_chocolate-milkshake-restaurante-x-template-p-500.jpeg"
+        "src": "app-assets/616dc9ba43f4163d5f7b436e_chocolate-milkshake-restaurante-x-template-p-500.jpeg"
       },
       "callbacks": {
         "onClick": [
@@ -4942,7 +4948,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox252": {
+    "Product_Name_2": {
       "custom": {
         "text": "Choclate Milkshake"
       },
@@ -4954,7 +4960,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox253": {
+    "Product_About_2": {
       "custom": {
         "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
       },
@@ -4966,7 +4972,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox238": {
+    "Product_Price_2": {
       "custom": {
         "text": "$ 6.99 USD"
       },
@@ -4978,7 +4984,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox254": {
+    "Product_About_1": {
       "custom": {
         "text": "Lorem ipsum dolor sit amet dolor consectetur adipiscing elit"
       },
@@ -4990,7 +4996,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox255": {
+    "Product_Name_1": {
       "custom": {
         "text": "Classic Burger"
       },
@@ -5002,10 +5008,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image125": {
+    "Product_Image_1": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/616dca333c0bd679a77bec56_classic-burger-restaurante-x-template-p-500.jpeg"
+        "src": "app-assets/616dca333c0bd679a77bec56_classic-burger-restaurante-x-template-p-500.jpeg"
       },
       "callbacks": {
         "onClick": [
@@ -5015,7 +5021,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox239": {
+    "Product_Price_1": {
       "custom": {
         "text": "$ 10.99 USD"
       },
@@ -5775,7 +5781,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
           }
         ]
       }

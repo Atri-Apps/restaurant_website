@@ -415,22 +415,22 @@ user-select: none;
 font-family: DM Sans;
 }
 .p-about.TextBox156 {
-;
+cursor: pointer;
 }
 .p-about.TextBox157 {
-;
+cursor: pointer;
 }
 .p-about.TextBox158 {
-;
+cursor: pointer;
 }
 .p-about.TextBox159 {
-;
+cursor: pointer;
 }
 .p-about.TextBox160 {
-;
+cursor: pointer;
 }
 .p-about.Image80 {
-;
+cursor: pointer;
 }
 .p-about.TextBox161 {
 font-family: DM Sans;
@@ -930,13 +930,6 @@ width: 30px;
 height: 30px;
 }
 @media screen and (max-width: 991px) {
-	.p-about.Flex145 {
-		padding-left: 150px;
-padding-right: 50px;
-box-sizing: border-box;
-width: 100%;
-justify-content: space-between;
-	}
 	.p-about.Menu2 {
 		display: flex;
 	}
@@ -957,5 +950,17 @@ z-index: 5;
 	.p-about.Flex141 {
 		column-gap: 30px;
 display: none;
+	}
+	.p-about.Flex145 {
+		padding-left: 150px;
+padding-right: 50px;
+box-sizing: border-box;
+width: 100%;
+justify-content: space-between;
+	}
+}
+@media screen and (max-width: 478px) {
+	.p-about.Flex145 {
+		padding-left: 50px;
 	}
 }

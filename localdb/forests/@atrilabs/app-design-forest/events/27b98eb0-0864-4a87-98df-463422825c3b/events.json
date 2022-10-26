@@ -28331,5 +28331,104 @@
       }
     },
     "id": "564d52fe-9d56-46b2-a474-7bf2c74be976"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "cursor": "pointer"
+        }
+      }
+    },
+    "id": "c06e25f3-0dd5-44cc-baff-815054244e47"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "cursor": "pointer"
+        }
+      }
+    },
+    "id": "58e0b7a0-840c-4475-8558-3ecb2e97d1ba"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "cursor": "pointer"
+        }
+      }
+    },
+    "id": "ff4c6c1d-6e95-41e8-b130-e910ea2a5be5"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "cursor": "pointer"
+        }
+      }
+    },
+    "id": "e5839ce9-1eb8-4497-bc50-698c1bdbd5d9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "cursor": "pointer"
+        }
+      }
+    },
+    "id": "934ad09d-a149-40fd-8ff9-4f0fae0f97db"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "property": {
+        "styles": {
+          "cursor": "pointer"
+        }
+      }
+    },
+    "id": "f6c72af9-6533-4694-bf5a-9ef1dd6b6323"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "slice": {
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "navigate": {
+                "type": "internal",
+                "url": "/"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "id": "3fe07b95-99ae-4a7c-bcd6-f17e75027f81"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "slice": {
+      "breakpoints": {
+        "478": {
+          "property": {
+            "styles": {
+              "paddingLeft": "50px"
+            }
+          }
+        }
+      }
+    },
+    "id": "33b4426c-74a1-4939-99b0-039fb3a20961"
   }
 ]
