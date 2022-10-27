@@ -4262,13 +4262,13 @@ const desktopModeProps = {
     "Flex341": {
       "callbacks": {}
     },
-    "Flex333": {
+    "Product_Card_7": {
       "callbacks": {}
     },
     "Flex325": {
       "callbacks": {}
     },
-    "Flex334": {
+    "Product_Card_8": {
       "callbacks": {}
     },
     "Flex326": {
@@ -4277,13 +4277,13 @@ const desktopModeProps = {
     "Flex342": {
       "callbacks": {}
     },
-    "Flex335": {
+    "Product_Card_5": {
       "callbacks": {}
     },
     "Flex327": {
       "callbacks": {}
     },
-    "Flex336": {
+    "Product_Card_6": {
       "callbacks": {}
     },
     "Flex328": {
@@ -4295,13 +4295,13 @@ const desktopModeProps = {
     "Flex343": {
       "callbacks": {}
     },
-    "Flex337": {
+    "Product_Card_4": {
       "callbacks": {}
     },
     "Flex329": {
       "callbacks": {}
     },
-    "Flex338": {
+    "Product_Card_3": {
       "callbacks": {}
     },
     "Flex330": {
@@ -4310,13 +4310,13 @@ const desktopModeProps = {
     "Flex344": {
       "callbacks": {}
     },
-    "Flex339": {
+    "Product_Card_2": {
       "callbacks": {}
     },
     "Flex331": {
       "callbacks": {}
     },
-    "Flex340": {
+    "Product_Card_1": {
       "callbacks": {}
     },
     "Flex332": {
@@ -5838,7 +5838,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Button39": {
+    "Product_Add_To_Cart": {
       "custom": {
         "text": "Add to Cart"
       },

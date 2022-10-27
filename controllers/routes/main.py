@@ -148,22 +148,6 @@ def handle_event(at: Atri, req: Request, res: Response):
             print(e)
 
     check_action(at, res)
-    # if at.Product_Card_1.onClick or at.Product_Name_1.onClick or at.Product_About_1.onClick or at.Product_Image_1.onClick:
-    #     print('jatu')
-    #     visit_product_page(at, 1, res)
-    # if at.Product_Card_2.onClick or at.Product_Name_2.onClick or at.Product_About_2.onClick or at.Product_Image_2.onClick:
-    #     visit_product_page(at, 2, res)
-    # if at.Product_Card_3.onClick or at.Product_Name_3.onClick or at.Product_About_3.onClick or at.Product_Image_3.onClick:
-    #     visit_product_page(at, 3, res)
-    # if at.Product_Card_4.onClick or at.Product_Name_4.onClick or at.Product_About_4.onClick or at.Product_Image_4.onClick:
-    #     visit_product_page(at, 4, res)
-    # if at.Product_Card_5.onClick or at.Product_Name_5.onClick or at.Product_About_5.onClick or at.Product_Image_5.onClick:
-    #     visit_product_page(at, 5, res)
-    # if at.Product_Card_6.onClick or at.Product_Name_6.onClick or at.Product_About_6.onClick or at.Product_Image_6.onClick:
-    #     visit_product_page(at, 6, res)
-    # if at.Product_Card_7.onClick or at.Product_Name_7.onClick or at.Product_About_7.onClick or at.Product_Image_7.onClick:
-    #     visit_product_page(at, 7, res)
-    # if at.Product_Card_8.onClick or at.Product_Name_8.onClick or at.Product_About_8.onClick or at.Product_Image_8.onClick:
-    #     visit_product_page(at, 8, res)
+
 
 

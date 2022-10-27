@@ -9,7 +9,7 @@ import { Menu as Menu3 } from "@atrilabs/react-component-manifests/src/manifests
 import { TextBox as TextBox3 } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
 import { Button as Button3 } from "@atrilabs/react-component-manifests/src/manifests/Button/Button.tsx";
 import { Image as Image3 } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
-import { useFlex265Cb, useMenu4Cb, useFlex260Cb, useFlex263Cb, useFlex264Cb, useFlex261Cb, useFlex262Cb, useFlex266Cb, useFlex267Cb, useFlex269Cb, useFlex270Cb, useFlex272Cb, useFlex271Cb, useFlex286Cb, useFlex285Cb, useFlex283Cb, useFlex275Cb, useFlex276Cb, useFlex277Cb, useFlex278Cb, useFlex284Cb, useFlex279Cb, useFlex280Cb, useFlex281Cb, useFlex282Cb, useFlex296Cb, useFlex293Cb, useFlex289Cb, useFlex294Cb, useFlex290Cb, useFlex291Cb, useFlex295Cb, useFlex292Cb, useFlex287Cb, useFlex288Cb, useTextBox276Cb, useTextBox277Cb, useTextBox278Cb, useTextBox279Cb, useTextBox280Cb, useButton37Cb, useButton38Cb, useTextBox281Cb, useTextBox282Cb, useTextBox283Cb, useTextBox284Cb, useTextBox285Cb, useImage153Cb, useProduct_ImageCb, useProduct_NameCb, useProduct_AboutCb, useProduct_PriceCb, useButton39Cb, useTextBox289Cb, useTextBox290Cb, useButton40Cb, useImage155Cb, useTextBox291Cb, useTextBox292Cb, useTextBox293Cb, useTextBox296Cb, useTextBox297Cb, useTextBox298Cb, useTextBox299Cb, useTextBox300Cb, useTextBox301Cb, useImage156Cb, useImage157Cb, useImage158Cb, useImage159Cb, useImage160Cb, useImage161Cb, useImage162Cb, useImage163Cb, useImage173Cb, useTextBox318Cb, useImage168Cb, useImage169Cb, useImage170Cb, useImage171Cb, useImage172Cb, useTextBox302Cb, useTextBox303Cb, useTextBox304Cb, useTextBox305Cb, useTextBox306Cb, useTextBox307Cb, useTextBox308Cb, useTextBox309Cb, useTextBox310Cb, useTextBox311Cb, useTextBox312Cb, useTextBox313Cb, useTextBox314Cb, useTextBox315Cb, useTextBox316Cb, useTextBox317Cb, useTextBox319Cb, useImage164Cb, useImage165Cb, useImage166Cb, useImage167Cb } from "../page-cbs/product";
+import { useFlex265Cb, useMenu4Cb, useFlex260Cb, useFlex263Cb, useFlex264Cb, useFlex261Cb, useFlex262Cb, useFlex266Cb, useFlex267Cb, useFlex269Cb, useFlex270Cb, useFlex272Cb, useFlex271Cb, useFlex286Cb, useFlex285Cb, useFlex283Cb, useFlex275Cb, useFlex276Cb, useFlex277Cb, useFlex278Cb, useFlex284Cb, useFlex279Cb, useFlex280Cb, useFlex281Cb, useFlex282Cb, useFlex296Cb, useFlex293Cb, useFlex289Cb, useFlex294Cb, useFlex290Cb, useFlex291Cb, useFlex295Cb, useFlex292Cb, useFlex287Cb, useFlex288Cb, useTextBox276Cb, useTextBox277Cb, useTextBox278Cb, useTextBox279Cb, useTextBox280Cb, useButton37Cb, useButton38Cb, useTextBox281Cb, useTextBox282Cb, useTextBox283Cb, useTextBox284Cb, useTextBox285Cb, useImage153Cb, useProduct_ImageCb, useProduct_NameCb, useProduct_AboutCb, useProduct_PriceCb, useProduct_Add_To_CartCb, useTextBox289Cb, useTextBox290Cb, useButton40Cb, useImage155Cb, useTextBox291Cb, useTextBox292Cb, useTextBox293Cb, useTextBox296Cb, useTextBox297Cb, useTextBox298Cb, useTextBox299Cb, useTextBox300Cb, useTextBox301Cb, useImage156Cb, useImage157Cb, useImage158Cb, useImage159Cb, useImage160Cb, useImage161Cb, useImage162Cb, useImage163Cb, useImage173Cb, useTextBox318Cb, useImage168Cb, useImage169Cb, useImage170Cb, useImage171Cb, useImage172Cb, useTextBox302Cb, useTextBox303Cb, useTextBox304Cb, useTextBox305Cb, useTextBox306Cb, useTextBox307Cb, useTextBox308Cb, useTextBox309Cb, useTextBox310Cb, useTextBox311Cb, useTextBox312Cb, useTextBox313Cb, useTextBox314Cb, useTextBox315Cb, useTextBox316Cb, useTextBox317Cb, useTextBox319Cb, useImage164Cb, useImage165Cb, useImage166Cb, useImage167Cb } from "../page-cbs/product";
 import "../page-css/product.css"
 
 export default function Product() {
@@ -184,9 +184,9 @@ const Product_AboutCb = useProduct_AboutCb()
 const Product_PriceProps = useStore((state)=>state["product"]["Product_Price"]);
 const Product_PriceIoProps = useIoStore((state)=>state["product"]["Product_Price"]);
 const Product_PriceCb = useProduct_PriceCb()
-const Button39Props = useStore((state)=>state["product"]["Button39"]);
-const Button39IoProps = useIoStore((state)=>state["product"]["Button39"]);
-const Button39Cb = useButton39Cb()
+const Product_Add_To_CartProps = useStore((state)=>state["product"]["Product_Add_To_Cart"]);
+const Product_Add_To_CartIoProps = useIoStore((state)=>state["product"]["Product_Add_To_Cart"]);
+const Product_Add_To_CartCb = useProduct_Add_To_CartCb()
 const TextBox289Props = useStore((state)=>state["product"]["TextBox289"]);
 const TextBox289IoProps = useIoStore((state)=>state["product"]["TextBox289"]);
 const TextBox289Cb = useTextBox289Cb()
@@ -369,7 +369,7 @@ const Image167Cb = useImage167Cb()
 <TextBox3 className="p-product Product_Name" {...Product_NameProps} {...Product_NameCb} {...Product_NameIoProps}/>
 <TextBox3 className="p-product Product_About" {...Product_AboutProps} {...Product_AboutCb} {...Product_AboutIoProps}/>
 <TextBox3 className="p-product Product_Price" {...Product_PriceProps} {...Product_PriceCb} {...Product_PriceIoProps}/>
-<Button3 className="p-product Button39" {...Button39Props} {...Button39Cb} {...Button39IoProps}/>
+<Button3 className="p-product Product_Add_To_Cart" {...Product_Add_To_CartProps} {...Product_Add_To_CartCb} {...Product_Add_To_CartIoProps}/>
 </Flex3>
 </Flex3>
 <Flex3 className="p-product Flex269" {...Flex269Props} {...Flex269Cb} {...Flex269IoProps}>

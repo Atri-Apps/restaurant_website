@@ -380,8 +380,8 @@ export function useProduct_PriceCb() {
 }), [])
 	return { onClick }
 }
-export function useButton39Cb() {
-	const onClick = useCallback(callbackFactory("Button39", "product", "/product", "onClick", 
+export function useProduct_Add_To_CartCb() {
+	const onClick = useCallback(callbackFactory("Product_Add_To_Cart", "product", "/product", "onClick", 
 			{
   "handlers": [
     {

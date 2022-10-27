@@ -2,6 +2,25 @@ import json
 from .atri import Atri
 from fastapi import Request, Response
 from atri_utils import *
+import urllib.parse
+
+
+def check_action(at: Atri, res):
+    for i in range(1, 9):
+        instance1: at.Product_Image_1.__class__ = getattr(at, f'Product_Image_{i}')
+        instance2: at.Product_Name_1.__class__ = getattr(at, f'Product_Name_{i}')
+        instance3: at.Product_About_1.__class__ = getattr(at, f'Product_About_{i}')
+        instance4: at.Product_Card_1.__class__ = getattr(at, f'Product_Card_{i}')
+
+        if instance1.onClick or instance2.onClick or instance3.onClick or instance4.onClick:
+            visit_product_page(at,i,res)
+
+
+def visit_product_page(at: Atri, num: int, res):
+    print('jatt')
+    instance: at.Product_Name_1.__class__ = getattr(at, f'Product_Name_{num}')
+    url = "/product" + "?" + urllib.parse.urlencode({'prodname': "_".join(instance.custom.text.lower().split())})
+    res.headers.append("location", url)
 
 
 def set_products_data(at: Atri, data):
@@ -47,4 +66,5 @@ def handle_event(at: Atri, req: Request, res: Response):
     This function is called whenever an event is received. An event occurs when user
     performs some action such as click button.
     """
+    check_action(at, res)
     pass
