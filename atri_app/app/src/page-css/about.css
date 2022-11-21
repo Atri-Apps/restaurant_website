@@ -930,11 +930,11 @@ width: 30px;
 height: 30px;
 }
 @media screen and (max-width: 991px) {
-	.p-about.Menu2 {
-		display: flex;
+	.p-about.Menu2.bpt {
+display: flex;
 	}
-	.p-about.Flex140 {
-		column-gap: 30px;
+	.p-about.Flex140.bpt {
+column-gap: 30px;
 flex-direction: column;
 background-color: #ffffff;
 padding-left: 15px;
@@ -944,15 +944,15 @@ padding-bottom: 15px;
 row-gap: 7px;
 z-index: 5;
 	}
-	.p-about.Flex143 {
-		display: none;
-	}
-	.p-about.Flex141 {
-		column-gap: 30px;
+	.p-about.Flex143.bpt {
 display: none;
 	}
-	.p-about.Flex145 {
-		padding-left: 150px;
+	.p-about.Flex141.bpt {
+column-gap: 30px;
+display: none;
+	}
+	.p-about.Flex145.bpt {
+padding-left: 150px;
 padding-right: 50px;
 box-sizing: border-box;
 width: 100%;
@@ -960,7 +960,7 @@ justify-content: space-between;
 	}
 }
 @media screen and (max-width: 478px) {
-	.p-about.Flex145 {
-		padding-left: 50px;
+	.p-about.Flex145.bpt {
+padding-left: 50px;
 	}
 }

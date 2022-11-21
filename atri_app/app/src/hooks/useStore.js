@@ -91,22 +91,34 @@ const desktopModeProps = {
     "Flex12": {
       "callbacks": {}
     },
+    "Flex371": {
+      "callbacks": {}
+    },
+    "Flex373": {
+      "callbacks": {}
+    },
     "Flex13": {
       "callbacks": {}
     },
     "Flex14": {
       "callbacks": {}
     },
+    "Flex365": {
+      "callbacks": {}
+    },
     "Flex15": {
       "callbacks": {}
     },
-    "Flex20": {
+    "Flex366": {
+      "callbacks": {}
+    },
+    "Flex367": {
       "callbacks": {}
     },
     "Flex21": {
       "callbacks": {}
     },
-    "Flex22": {
+    "Flex368": {
       "callbacks": {}
     },
     "Flex25": {
@@ -676,7 +688,20 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image8": {
+    "Image10": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/616d9a0bded3b95d9731ecc4_logo-postmates-restaurante-x-template.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image197": {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/616d9a0b5b82ce962fe1736b_logo-grubhub-restaurante-x-template.svg"
@@ -689,23 +714,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image9": {
+    "Image198": {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/616d9a0b326163db6497f05b_logo-rappi-restaurante-x-template.svg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image10": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/616d9a0bded3b95d9731ecc4_logo-postmates-restaurante-x-template.svg"
       },
       "callbacks": {
         "onClick": [
@@ -776,9 +788,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox27": {
+    "Image195": {
       "custom": {
-        "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam "
+        "alt": "No preview available",
+        "src": "/app-assets/616dcfbb9e09be616e71d818_menu-main-dishes-restaurante-x-template.svg"
       },
       "callbacks": {
         "onClick": [
@@ -788,19 +801,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox28": {
-      "custom": {
-        "text": "Main Dishes"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox29": {
+    "TextBox382": {
       "custom": {
         "text": "Explore Menu"
       },
@@ -812,10 +813,21 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image16": {
+    "TextBox383": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/616dcfbb9e09be616e71d818_menu-main-dishes-restaurante-x-template.svg"
+        "text": "Main Dishes"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox384": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam "
       },
       "callbacks": {
         "onClick": [
@@ -874,9 +886,10 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox33": {
+    "Image196": {
       "custom": {
-        "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam "
+        "alt": "No preview available",
+        "src": "/app-assets/616dcfafe6321c66cb474f97_menu-desserts-restaurante-x-template.svg"
       },
       "callbacks": {
         "onClick": [
@@ -886,19 +899,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox34": {
-      "custom": {
-        "text": "Desserts"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox35": {
+    "TextBox385": {
       "custom": {
         "text": "Explore Menu"
       },
@@ -910,10 +911,21 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image18": {
+    "TextBox386": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/616dcfafe6321c66cb474f97_menu-desserts-restaurante-x-template.svg"
+        "text": "Desserts"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox387": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam "
       },
       "callbacks": {
         "onClick": [

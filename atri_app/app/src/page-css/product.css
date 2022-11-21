@@ -645,11 +645,11 @@ height: 145px;
 border-radius: 25px;
 }
 @media screen and (max-width: 991px) {
-	.p-product.Menu4 {
-		display: flex;
+	.p-product.Menu4.bpt {
+display: flex;
 	}
-	.p-product.Flex260 {
-		column-gap: 30px;
+	.p-product.Flex260.bpt {
+column-gap: 30px;
 flex-direction: column;
 background-color: #ffffff;
 padding-left: 15px;
@@ -659,64 +659,64 @@ padding-bottom: 15px;
 row-gap: 7px;
 z-index: 5;
 	}
-	.p-product.Flex263 {
-		display: none;
-	}
-	.p-product.Flex261 {
-		column-gap: 30px;
+	.p-product.Flex263.bpt {
 display: none;
 	}
-	.p-product.Flex265 {
-		padding-left: 150px;
+	.p-product.Flex261.bpt {
+column-gap: 30px;
+display: none;
+	}
+	.p-product.Flex265.bpt {
+padding-left: 150px;
 padding-right: 50px;
 box-sizing: border-box;
 width: 100%;
 justify-content: space-between;
 	}
-	.p-product.Flex296 {
-		flex-direction: column;
+	.p-product.Flex296.bpt {
+flex-direction: column;
 row-gap: 40px;
 align-items: center;
 	}
 }
 @media screen and (max-width: 767px) {
-	.p-product.Flex269 {
-		flex-direction: column;
+	.p-product.Flex269.bpt {
+flex-direction: column;
 row-gap: 10px;
 align-items: center;
 	}
-	.p-product.Flex283 {
-		flex-direction: column;
+	.p-product.Flex283.bpt {
+flex-direction: column;
 row-gap: 10px;
 	}
-	.p-product.Flex284 {
-		flex-direction: column;
+	.p-product.Flex284.bpt {
+flex-direction: column;
 row-gap: 10px;
 	}
-	.p-product.Flex266 {
-		flex-direction: column;
+	.p-product.Flex266.bpt {
+flex-direction: column;
 row-gap: 20px;
 	}
 }
 @media screen and (max-width: 478px) {
-	.p-product.Flex265 {
-		padding-left: 50px;
+	.p-product.Flex265.bpt {
+padding-left: 50px;
 	}
-	.p-product.Flex266 {
-		padding-left: 50px;
+	.p-product.Flex266.bpt {
+padding-left: 50px;
 padding-right: 50px;
 	}
-	.p-product.Flex296 {
-		padding-left: ;
+	.p-product.Flex296.bpt {
+padding-left: ;
 padding-right: ;
 	}
-	.p-product.Product_Image {
-		width: 90%;
+	.p-product.Product_Image.bpt {
+width: 90%;
 	}
-	.p-product.TextBox292 {
-		width: 90%;
+	.p-product.TextBox292.bpt {
+width: 90%;
 	}
-	.p-product.TextBox299 {
-		width: 90%;
+	.p-product.TextBox299.bpt {
+width: 90%;
 	}
 }

@@ -3,14 +3,19 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[[source]]
+url = "https://test.pypi.org/simple/"
+verify_ssl = true
+name = "testpypi"
+
 [packages]
-atri = "*"
 fastapi = "==0.84.0"
 uvicorn = "*"
 jsonpickle = "*"
 python-multipart = "*"
 atri-utils = "*"
 sendgrid = "*"
+atri = {version = "*", index = "testpypi"}
 
 [dev-packages]
 
