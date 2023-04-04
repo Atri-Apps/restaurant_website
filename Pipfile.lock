@@ -137,7 +137,7 @@
                 "sha256:d95ca4208046840e4af1fa3cfc915f2953b08e16c08cd4c4702c5a367ca45a72",
                 "sha256:e5167bade61ef3b15671e09b17589b246871822559762da3e01321f185a63286"
             ],
-            "index": "testpypi",
+            "index": "pypi",
             "version": "==0.0.79"
         },
         "atri-utils": {
